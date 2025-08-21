@@ -1,0 +1,9 @@
+{
+	"name": "DF-Nagesh-21Aug",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f9ac99e-3f71-4cf4-8a8f-398e1cf669db",
+		"tenantId": "38d6d9fb-c85b-479a-a64a-3657ea5facb3"
+	}
+}
