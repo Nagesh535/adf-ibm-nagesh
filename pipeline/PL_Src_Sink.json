@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Act_copy_gen2",
+				"name": "ActCopy_S3_SA",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -18,7 +18,7 @@
 					"source": {
 						"type": "DelimitedTextSource",
 						"storeSettings": {
-							"type": "AzureBlobFSReadSettings",
+							"type": "AmazonS3ReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_input",
+						"referenceName": "DS_S3_input",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_output",
+						"referenceName": "DS_SA_Output",
 						"type": "DatasetReference"
 					}
 				]
