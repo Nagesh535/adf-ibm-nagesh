@@ -1,0 +1,9 @@
+{
+	"name": "ADF-IBM-22AUG-2025",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "850d2a8c-899f-448a-a8c2-adde714ae93e",
+		"tenantId": "38d6d9fb-c85b-479a-a64a-3657ea5facb3"
+	}
+}
